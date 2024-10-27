@@ -1,43 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Courses</title>
     <style>
-        body{
+        body {
             margin: 0;
             padding: 0;
         }
 
-        header{
+        header {
             background-color: #9f9;
             padding: 50px 10%;
         }
-        main{
-            
-        }
-        footer{
-            background-color: #005;
-        }
-        .feature{
-            display:flex;
 
+        footer {
+            background-color: #005;
+            color: white;
+            padding: 50px 10%;
         }
-        .left{
+
+        .feature {
+            display: flex;
+        }
+
+        .left {
             width: 50%;
-            display:flex;
-            justify-content:center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .right {
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
             align-items: center;
+            padding: 20px;
         }
-        .right{
-            width: 50%;
-        }
-        .img1{
+
+        .img1 {
             width: 100%;
+        }
+
+        .advantages {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 20px;
+        }
+
+        .advantage {
+            text-align: center;
+            margin: 10px;
+            width: 30%;
+        }
+
+        .advantage img {
+            width: 100%;
+            height: 250px;
+            max-width: 300px;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>HTML Courses</h1>
@@ -47,18 +78,58 @@
             <div class="feature">
                 <div class="left">
                     <h2>Найкращі курси HTML у світі!</h2>
+                    <p>Вітаємо на курсі Основи HTML! Цей курс призначений для тих, хто хоче зробити перші кроки у
+                        веб-розробці.
+                        Ви дізнаєтеся, що таке HTML (Hypertext Markup Language) і як він використовується для створення
+                        структури веб-сторінок. Протягом курсу ви освоїте основи HTML, включаючи елементи, теги та
+                        атрибути.
+                        Ви навчитеся створювати заголовки, абзаци, списки та вставляти зображення, а також
+                        використовувати
+                        посилання для навігації між сторінками. Крім того, ви дізнаєтеся, як форматувати текст і
+                        працювати
+                        з формами, включаючи поля введення, кнопки та чекбокси. <br>
+                        Цей курс підходить для початківців, які прагнуть зрозуміти основи веб-розробки, а також для
+                        студентів,
+                        які бажають створювати власні веб-сторінки. Ви отримаєте практичні завдання для закріплення
+                        отриманих знань,
+                        а також підтримку від викладача та спільноти. <br>
+                        Почніть свою подорож у світ веб-розробки вже сьогодні! Реєструйтеся на курс і створіть свою
+                        першу веб-сторінку! <br>
+                    </p>
                 </div>
                 <div class="right">
-                    <img class="img1" src="https://osvitoria.media/wp-content/webp-express/webp-images/uploads/2020/04/353974-PBME6B-537-1500x1144.jpg.webp" alt="Image">
+                    <img class="img1"
+                        src="https://osvitoria.media/wp-content/webp-express/webp-images/uploads/2020/04/353974-PBME6B-537-1500x1144.jpg.webp"
+                        alt="Image">
                 </div>
             </div>
         </section>
-        <section class="courses">
 
+        <section class="advantages">
+            <h2>Чому варто обрати саме нас?</h2>
+            <div class="advantages">
+                <div class="advantage">
+                    <img src="https://miro.medium.com/v2/resize:fit:1400/0*SPjH6EGSjLcMPv8Q.jpg"
+                        alt="Дівчинка за комп'ютером">
+                    <p><strong>Доступність для початківців:</strong> Курс розроблений для тих, хто тільки починає свій
+                        шлях у веб-розробці, без попереднього досвіду.</p>
+                </div>
+                <div class="advantage">
+                    <img src="https://cdn.britannica.com/30/199930-131-B3D1D347/computer.jpg" alt="Дівчинка плаває">
+                    <p><strong>Практичні завдання:</strong> Ви отримаєте практичні завдання для закріплення отриманих
+                        знань, а також підтримку від викладача.</p>
+                </div>
+                <div class="advantage">
+                    <img src="https://itproger.com/img/main_page/mobile-main.svg" alt="Дівчинка читає">
+                    <p><strong>Підтримка спільноти:</strong> Ви зможете взаємодіяти з іншими студентами і отримувати
+                        допомогу у процесі навчання.</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <h5>Copyright © Vlad Ceresna, 2024</h5>
+        <h5>Copyright © Melnyk Diana, 2024</h5>
     </footer>
 </body>
+
 </html>
